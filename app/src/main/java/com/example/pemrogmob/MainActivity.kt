@@ -9,6 +9,7 @@ import android.widget.Button
 class MainActivity : AppCompatActivity() {
     lateinit var btnSampleRV: Button
     lateinit var btnSampleCV: Button
+    lateinit var btnSV: Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,6 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         btnSampleRV = findViewById(R.id.btnSampleRV)
         btnSampleCV = findViewById(R.id.btnSampleCV)
+        btnSV = findViewById(R.id.btnSV)
 
         btnSampleRV.setOnClickListener(View.OnClickListener { view ->
             var intent = Intent(this@MainActivity, SampleRecycleView::class.java)
@@ -25,6 +27,11 @@ class MainActivity : AppCompatActivity() {
 
         btnSampleCV.setOnClickListener(View.OnClickListener { view ->
             var intent = Intent(this@MainActivity, SampleCardView::class.java)
+            startActivity(intent)
+        })
+
+        btnSV.setOnClickListener(View.OnClickListener { view ->
+            var intent = Intent(this@MainActivity, ServiceActivity::class.java)
             startActivity(intent)
         })
     }
