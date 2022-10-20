@@ -28,10 +28,7 @@ class GetAPIActivity : AppCompatActivity() {
                     Toast.makeText(this@GetAPIActivity, t.localizedMessage,
                         Toast.LENGTH_SHORT).show()
                 }
-                override fun onResponse(
-                    call: Call<List<ResponseUsersItem>>,
-                    response: Response<List<ResponseUsersItem>>
-                ) {
+                override fun onResponse(call: Call<List<ResponseUsersItem>>, response: Response<List<ResponseUsersItem>>) {
                     rvUser.apply{
                         layoutManager = LinearLayoutManager(this@GetAPIActivity)
                         adapter = UsersAdapter(response.body())

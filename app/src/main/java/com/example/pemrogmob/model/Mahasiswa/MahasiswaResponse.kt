@@ -1,24 +1,33 @@
 package com.example.pemrogmob.model.Mahasiswa
 
+import com.example.pemrogmob.model.ResponseUsersItem
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-class MahasiswaResponse {
+class MahasiswaResponse(
     @SerializedName("id")
-    var id: Int? = null
+    @Expose
+    var id: Int? = null,
 
     @SerializedName("nama")
-    var nama: String? = null
+    @Expose
+    var nama: String? = null,
 
     @SerializedName("nim")
-    var nim: String? = null
+    @Expose
+    var nim: String? = null,
 
     @SerializedName("alamat")
-    var alamat: String? = null
+    @Expose
+    var alamat: String? = null,
 
     @SerializedName("email")
-    var email: String? = null
+    @Expose
+    var email: String? = null,
 
     @SerializedName("foto")
+    @Expose
     var foto: String? = null
-}
+)
+
+

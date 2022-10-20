@@ -18,8 +18,7 @@ class UsersAdapter(val users: List<ResponseUsersItem>?):
             LayoutInflater.from(parent.context).inflate(
                 R.layout.rv_item_user, parent, false))
     }
-    override fun onBindViewHolder(holder: UsersAdapter.UsersHolder,
-                                  position: Int) {
+    override fun onBindViewHolder(holder: UsersAdapter.UsersHolder, position: Int) {
         holder.bindUsers(users?.get(position))
     }
     override fun getItemCount(): Int {
@@ -32,10 +31,10 @@ class UsersAdapter(val users: List<ResponseUsersItem>?):
         lateinit var txtNoTelp: TextView
         fun bindUsers(users: ResponseUsersItem?) {
             itemView.apply {
-                txtNama = findViewById(R.id.nama)
-                txtEmail = findViewById(R.id.email)
-                txtAlamat = findViewById(R.id.alamat)
-                txtNoTelp = findViewById(R.id.notelp)
+                txtNama = findViewById(R.id.nama_mhs)
+                txtEmail = findViewById(R.id.email_mhs)
+                txtAlamat = findViewById(R.id.alamat_mhs)
+                txtNoTelp = findViewById(R.id.id_mhs)
                 txtNama.text = users?.name
                 txtEmail.text = users?.email
                 val address = "${users?.address?.street},${users?.address?.city}, ${users?.address?.suite},${users?.address?.zipcode}"

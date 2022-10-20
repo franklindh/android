@@ -16,6 +16,9 @@
         android:theme="@style/Theme.PemrogMob"
         tools:targetApi="31">
         <activity
+            android:name=".GetMahasiswaActivity"
+            android:exported="false" />
+        <activity
             android:name=".InsertMahasiswa"
             android:exported="true"
             android:label="Tambah Mahasiswa">

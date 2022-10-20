@@ -4,13 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/activity_get_apiactivity.xml" value="0.4" />
-        <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/activity_insert_mahasiswa.xml" value="0.3726851851851852" />
+        <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/activity_get_mahasiswa.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/activity_insert_mahasiswa.xml" value="0.6" />
         <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/activity_sample_card_view.xml" value="0.22282608695652173" />
         <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/activity_sample_recycle_view.xml" value="0.1" />
         <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/activity_service.xml" value="0.22282608695652173" />
         <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/cv_item_dutatani.xml" value="0.536" />
         <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/rv_item_dutatani.xml" value="0.4" />
+        <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/rv_item_mahasiswa.xml" value="0.6" />
         <entry key="..\:/Users/email/AndroidStudioProjects/PemrogMob/app/src/main/res/layout/rv_item_user.xml" value="0.4" />
       </map>
     </option>
